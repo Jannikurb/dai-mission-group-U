@@ -1,9 +1,0 @@
-services:
-  jupyter:
-    image: ghcr.io/firrm/dai:latest
-    ports:
-      - "8888:8888"
-    volumes:
-      # Your notebooks and files saved here persist between container restarts.
-      # The folder is created automatically if it does not exist.
-      - ./my-work:/home/jovyan/work
